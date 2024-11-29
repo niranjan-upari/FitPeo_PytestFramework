@@ -1,0 +1,19 @@
+Steps for testing revenue calculator of FitPeo website 
+
+1)	Visit https://www.fitpeo.com/.
+2)	Hit Revenue Calculator Menu.
+3)	Drag the slider to 823.
+4)	Now erase the slider value and enter value as 560.
+5)	Now slider should change according to it's changing value.
+6)	And now select CPT codes- ["CPT-99091", "CPT-99453", "CPT-99454", "CPT-99474"].
+7)	Total Recurring Reimbursement for all Patients Per Month(on top right), when Slider=560 should be $75600.
+8)	Now change slider value to 820.
+9)	Now slider should change according to it's changing value.
+10)	And now select CPT codes- ["CPT-99091", "CPT-99453", "CPT-99454", "CPT-99474"].
+11)	Total Recurring Reimbursement for all Patients Per Month(on top right), when Slider=820 should be $110700.
+
+Expected output -
+Without any errors, te amount should display.
+
+Note –
+In the future webpage design might change, which throws errors with web elements not being located or some exceptions.
